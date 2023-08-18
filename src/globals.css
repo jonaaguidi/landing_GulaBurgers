@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Cheddar";
+    src: url("../src/assets/fonts/CheddarGothicRough-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cheddar", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 10px 10px 5px black;
+}
+

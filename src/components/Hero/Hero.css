@@ -1,0 +1,33 @@
+.heroContainer{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.heroTitle{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 2.5px;
+}
+
+
+.heroSubtitle{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 2rem;
+    text-shadow: 10px 10px 5px black;
+    letter-spacing: 1.2px;
+    padding-bottom: 16px;
+}
+
+.heroButton{
+    width: 120px;
+    padding: 6px 12px;
+}
+
